@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mStackSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mStack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should LIFO[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32misEmpty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Return empty correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mempty stack[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw error when pop[0m[0m

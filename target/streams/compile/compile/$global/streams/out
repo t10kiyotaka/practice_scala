@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kiyotaka/IdeaProjects/scala-fp/src/main/scala/EitherStudy.scala:3:43: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Left(_), Right(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def map[B](f: A => B): Either[E, B] = this match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/kiyotaka/IdeaProjects/scala-fp/src/main/scala/EitherStudy.scala:8:69: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Left(_), Right(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def flatMap[EE >: E, B](f: A => Either[EE, B]): Either[EE, B] = this match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
